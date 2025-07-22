@@ -23,7 +23,7 @@
     ]
 	},
   "mixins": [
-      "mixins.json"
+      "mousefix.mixins.json"
   ],
 	"depends": {
 		"minecraft": "*",
