@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "mousefix",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Mouse Fix",
+  "description": "Fixes snapping when closing inventories.",
   "authors": [
-    "Turnip Labs"
+    "Big Sir"
   ],
   "contact": {
     "homepage": "",
@@ -19,23 +19,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
-    ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
+			"bigsir.mousefix.MouseFix"
+    ]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "mixins.json"
   ],
-
-  "depends": {
+	"depends": {
 		"minecraft": "*",
     "fabricloader": ">=0.15.5"
   },

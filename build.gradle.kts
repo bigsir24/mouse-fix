@@ -95,7 +95,7 @@ dependencies {
 
     // Helper library
     // If you do not need Halplibe you can comment this line out or delete this line
-    modImplementation("turniplabs:halplibe:$halplibe_version")
+    //modImplementation("turniplabs:halplibe:$halplibe_version")
 
     modImplementation("turniplabs:modmenu-bta:$mod_menu_version")
 
