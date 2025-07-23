@@ -3,10 +3,8 @@
   "minVersion": "0.8",
   "package": "bigsir.mousefix.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
-  ],
   "client": [
-    "MinecraftMixin"
+    "MouseInputMixin"
   ],
   "injectors": {
     "defaultRequire": 1
